@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18BEDAB036BF4251A442997C /* libPods-EpochButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */; };
-		4D3DF6341BC2EC6F0047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6331BC2EC6F0047AB5C /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		4D3DF6361BC2EC7E0047AB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6351BC2EC7E0047AB5C /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D3DF6341BC2EC6F0047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6331BC2EC6F0047AB5C /* Launch Screen.storyboard */; };
+		4D3DF6361BC2EC7E0047AB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6351BC2EC7E0047AB5C /* Main.storyboard */; };
 		72F7EAD8191D78B0000D6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD7191D78B0000D6B27 /* Foundation.framework */; };
 		72F7EADA191D78B0000D6B27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD9191D78B0000D6B27 /* CoreGraphics.framework */; };
 		72F7EADC191D78B0000D6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EADB191D78B0000D6B27 /* UIKit.framework */; };
@@ -21,6 +21,7 @@
 		72F7EAF2191D78B0000D6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD7191D78B0000D6B27 /* Foundation.framework */; };
 		72F7EAF3191D78B0000D6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EADB191D78B0000D6B27 /* UIKit.framework */; };
 		72F7EAFB191D78B0000D6B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F7EAF9191D78B0000D6B27 /* InfoPlist.strings */; };
+		9A7E02261C5186AD002F1E36 /* FISEpochViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E02251C5186AD002F1E36 /* FISEpochViewController.m */; };
 		D8843A9B19EEE38500F9DBBA /* FISEpochViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D8843A9A19EEE38500F9DBBA /* FISEpochViewControllerSpec.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		72F7EAF0191D78B0000D6B27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		72F7EAF8191D78B0000D6B27 /* EpochButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpochButtonTests-Info.plist"; sourceTree = "<group>"; };
 		72F7EAFA191D78B0000D6B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A7E02241C5186AD002F1E36 /* FISEpochViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISEpochViewController.h; path = ../../../../Documents/EpochButton/EpochButton/FISEpochViewController.h; sourceTree = "<group>"; };
+		9A7E02251C5186AD002F1E36 /* FISEpochViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISEpochViewController.m; path = ../../../../Documents/EpochButton/EpochButton/FISEpochViewController.m; sourceTree = "<group>"; };
 		A7050BCB61819990F452767A /* Pods-EpochButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpochButtonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpochButtonTests/Pods-EpochButtonTests.release.xcconfig"; sourceTree = "<group>"; };
 		D8843A9A19EEE38500F9DBBA /* FISEpochViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEpochViewControllerSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +123,8 @@
 			children = (
 				72F7EAE6191D78B0000D6B27 /* FISAppDelegate.h */,
 				72F7EAE7191D78B0000D6B27 /* FISAppDelegate.m */,
+				9A7E02241C5186AD002F1E36 /* FISEpochViewController.h */,
+				9A7E02251C5186AD002F1E36 /* FISEpochViewController.m */,
 				4D3DF6351BC2EC7E0047AB5C /* Main.storyboard */,
 				72F7EAE9191D78B0000D6B27 /* Images.xcassets */,
 				4D3DF6331BC2EC6F0047AB5C /* Launch Screen.storyboard */,
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7E02261C5186AD002F1E36 /* FISEpochViewController.m in Sources */,
 				72F7EAE4191D78B0000D6B27 /* main.m in Sources */,
 				72F7EAE8191D78B0000D6B27 /* FISAppDelegate.m in Sources */,
 			);
